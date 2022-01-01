@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Analisador de Números</title>
+</head>
+<style>
+    nav li{
+    padding: 10px;
+    width: 200px;
+    background:rgba(199, 194, 194, 0.829);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    list-style: none;
+    text-align: center;
+
+}
+</style>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+
+    </header>
+
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    <section>
+       
+        <div >
+            Número (entre 1 e 100):
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="adicionar" onclick="adicionar()">
+            <br><br><select name="flista" id="flista" size="6"></select>
+            <br><input type="button" value="finalizar" onclick="finalizar()">
+        </div>
+       
+        <div id="res" >
+        </div>
+
+    </section>
+    <footer>
+        <p> &copy; GatewayCloud  </p>
+    </footer>
+    <script src="script-js/script_3.js"></script>
+    
+</body>
+</html>
