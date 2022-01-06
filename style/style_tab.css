@@ -29,7 +29,8 @@ nav li{
     background:rgba(199, 194, 194, 0.829);
     margin-bottom: 10px;
     border-radius: 5px;
-    
+    list-style: none;
+    text-align: center; 
     
 }
 
@@ -39,6 +40,7 @@ nav a {
  
     
 }
+
 
     
 div {
@@ -57,5 +59,11 @@ footer {
 @media (max-width: 425px){
     section  {
         width: 80%;
+    }
+}
+
+@media (max-width: 425px){
+    nav li {
+        width: 100px;
     }
 }
